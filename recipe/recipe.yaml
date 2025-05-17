@@ -31,7 +31,7 @@ requirements:
     - automake
     - make
   host:
-    - libmediainfo ${{ version }}
+    - libmediainfo ${{ version }}.*
     - libzen
     - zlib
 
